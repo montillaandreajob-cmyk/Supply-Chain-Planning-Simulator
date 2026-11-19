@@ -1,0 +1,39 @@
+{
+  "max_weekly_capacity": 7000,
+  "target_ending_inventory": 500,
+  "starting_inventory": 400,
+  "transport_mix": {
+    "direct": 0.4,
+    "distributor": 0.15,
+    "retail": 0.15,
+    "online": 0.3
+  },
+  "returns_mix": {
+    "rework": 0.65,
+    "recycle": 0.2,
+    "donate": 0.1,
+    "dispose": 0.05
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "demand": 4800,
+      "returns": 100
+    },
+    {
+      "week": 2,
+      "demand": 4820,
+      "returns": 120
+    },
+    {
+      "week": 3,
+      "demand": 4790,
+      "returns": 95
+    },
+    {
+      "week": 4,
+      "demand": 4820,
+      "returns": 105
+    }
+  ]
+}
